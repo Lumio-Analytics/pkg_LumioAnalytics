@@ -1,0 +1,55 @@
+[
+    {
+        "name": "lumioanalytics/lia-php-client",
+        "version": "0.0.2",
+        "version_normalized": "0.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Lumio-Analytics/lia-php-client.git",
+            "reference": "36b6f442a1bf0ffc7f21855a68704eaf9f24a482"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Lumio-Analytics/lia-php-client/zipball/36b6f442a1bf0ffc7f21855a68704eaf9f24a482",
+            "reference": "36b6f442a1bf0ffc7f21855a68704eaf9f24a482",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "ext-mbstring": "*",
+            "php": ">=5.5"
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "~1.12",
+            "phpunit/phpunit": "^4.8",
+            "squizlabs/php_codesniffer": "~2.6"
+        },
+        "time": "2019-01-30T08:46:48+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Lumio\\IntegrationAPI\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "proprietary"
+        ],
+        "authors": [
+            {
+                "name": "lumio-analytics",
+                "homepage": "https://lumio-analytics.com"
+            }
+        ],
+        "description": "Lumio instegrations api php client",
+        "homepage": "https://lumio-analytics.com",
+        "keywords": [
+            "api",
+            "lumiotracking",
+            "php",
+            "sdk"
+        ]
+    }
+]

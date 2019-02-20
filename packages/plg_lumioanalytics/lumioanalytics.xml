@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system" method="upgrade">
+    <name>System - Lumio Analytics</name>
+    <creationDate>2019-02-03</creationDate>
+    <copyright>2019 Lumio Analytics</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <author>Mikel</author>
+    <authorEmail>info@lumio-analytics.com </authorEmail>
+    <authorUrl>http://lumio-analytics.com/</authorUrl>
+    <version>1.0.0</version>
+    <description>Add Tracking script for Lumio analytics and Informative panel Lumio analytic in detail.</description>
+    <files>
+        <filename plugin="lumioanalytics">lumioanalytics.php</filename>
+        <folder>language</folder>
+        <folder>vendor</folder>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="Basic">
+                <field name="la_key" size="40" maxlength="40" filter="safehtml" type="text" label="PLG_LUMIOANALYTICS_FORM_LBL_LA_KEY" description="PLG_LUMIOANALYTICS_FORM_DESC_LA_KEY" hint="PLG_LUMIOANALYTICS_FORM_LBL_LA_KEY"/>
+                <field name="registered" type="hidden"/>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
