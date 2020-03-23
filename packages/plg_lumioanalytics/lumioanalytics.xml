@@ -2,13 +2,13 @@
 <extension version="2.5" type="plugin" group="system" method="upgrade">
     <name>System - Lumio Analytics</name>
     <creationDate>2019-02-03</creationDate>
-    <copyright>2019 Lumio Analytics</copyright>
-    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <copyright>© 2020 Lumio Analytics. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
     <author>Mikel</author>
     <authorEmail>info@lumio-analytics.com </authorEmail>
     <authorUrl>http://lumio-analytics.com/</authorUrl>
     <version>1.0.0</version>
-    <description>Add Tracking script for Lumio analytics and Informative panel Lumio analytic in detail.</description>
+    <description>Lumio Analytics, Discover who is visiting your site.</description>
     <files>
         <filename plugin="lumioanalytics">lumioanalytics.php</filename>
         <folder>language</folder>

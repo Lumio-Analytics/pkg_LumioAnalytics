@@ -1,0 +1,38 @@
+
+Lumio Analytics for Joomla
+
+Copyright 2009-2018 Levente Hunyadi
+http://hunyadi.info.hu/sigplus
+
+
+LICENSE
+
+sigplus is free software: you can redistribute it and/or modify it
+under the terms of the GNU General Public License as published by the
+Free Software Foundation, either version 3 of the License, or (at your
+option) any later version.
+
+sigplus is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General
+Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with sigplus. If not, see <http://www.gnu.org/licenses/>.
+
+
+LICENSE FOR INCLUDED PRODUCTS
+
+sigplus ships with a number of other contributed products that have
+their separate licenses. These add-on products are located in the
+directory "engines" inside the sigplus installation directory. You must
+abide by the terms of these additional licenses if you wish to fully
+utilize the features of sigplus. If you decline to accept a particular
+license, you must delete the corresponding products from the "engines"
+folder. Since sigplus is modular, it will automatically recognize the
+absence of that particular feature but the rest of the distribution will
+operate normally.
+
+Once sigplus is installed, included products and their respective
+license files can be found in the folder "/media/engines" relative to
+the Joomla root directory.

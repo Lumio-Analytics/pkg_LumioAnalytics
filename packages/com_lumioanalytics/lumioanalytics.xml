@@ -2,8 +2,8 @@
 <extension type="component" version="3.0" method="upgrade">
     <name>com_lumioanalytics</name>
     <creationDate>2019-02-03</creationDate>
-    <copyright>2019 Lumio Analytics</copyright>
-    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <copyright>© 2020 Lumio Analytics. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
     <author>Mikel</author>
     <authorEmail>info@lumio-analytics.com </authorEmail>
     <authorUrl>http://lumio-analytics.com/</authorUrl>

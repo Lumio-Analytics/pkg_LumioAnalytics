@@ -3,18 +3,13 @@
 	<packagename>Lumio Analytics</packagename>
 	<name>Lumio Analytics</name>
     <creationDate>2019-02-03</creationDate>
-    <copyright>2019 Lumio Analytics</copyright>
-    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <copyright>© 2020 Lumio Analytics. All rights reserved.</copyright>
+	<license>GNU/GPL</license>
     <author>Mikel</author>
     <authorEmail>info@lumio-analytics.com </authorEmail>
     <authorUrl>http://lumio-analytics.com/</authorUrl>
     <version>1.0.0</version>
-    <description>Add Tracking script for Lumio analytics and Informative panel Lumio analytic in detail.</description>
-	
-	<updateservers>
-        <server type="extension" priority="1" name="RSForm! Pro - Payment Package">https://www.rsjoomla.com/updates/com_rsform/Plugins/pkg_payment.xml</server>
-    </updateservers>
-	
+    <description>Lumio Analytics, Discover who is visiting your site.</description>
 	<files folder="packages">
 		<file type="plugin" id="pkg_lumioanalytics" group="system">plg_lumioanalytics</file>
 		<file type="component" id="pkg_rsform_payment">com_lumioanalytics</file>
