@@ -23,6 +23,8 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
+// no direct access
+defined('_JEXEC') or die('Restricted access');
 
 defined('JPATH_BASE') or die;
 

@@ -24,7 +24,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-// Check to ensure this file is included in Joomla!
+// no direct access
 defined('_JEXEC') or die('Restricted access');
 
 jimport('joomla.form.formfield');

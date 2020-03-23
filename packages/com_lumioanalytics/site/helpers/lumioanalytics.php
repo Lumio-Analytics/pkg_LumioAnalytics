@@ -1,5 +1,4 @@
 <?php
-
 /**
  * @version    $version 1.0.0 Mikel Martin  $
  * @package    Com_Lumioanalytics
@@ -23,7 +22,8 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
-defined('_JEXEC') or die;
+// no direct access
+defined('_JEXEC') or die('Restricted access');
 
 JLoader::register('LumioanalyticsHelper', JPATH_ADMINISTRATOR . DIRECTORY_SEPARATOR . 'components' . DIRECTORY_SEPARATOR . 'com_lumioanalytics' . DIRECTORY_SEPARATOR . 'helpers' . DIRECTORY_SEPARATOR . 'lumioanalytics.php');
 

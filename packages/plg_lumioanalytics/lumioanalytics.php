@@ -1,6 +1,8 @@
 <?php
 /**
  * @version    $version 1.0.0 Mikel Martin  $
+ * @package    Plg_Lumioanalytics
+ * @author     Mikel <info@lumio-analytics.com >
  * @copyright    Copyright (C) 2020 Lumio Analytics. All rights reserved.
  * @license    GNU/GPL, see license.html
  *
@@ -81,7 +83,7 @@ class plgSystemLumioAnalytics extends JPlugin
         }
         return $client->succeeded();
     }
-    
+
     function onAfterRender()
     {
         $key = $this->params->get('la_key', '');
@@ -93,7 +95,7 @@ class plgSystemLumioAnalytics extends JPlugin
         }
 
         $buffer = JResponse::getBody();
-        
+
         if (LumioanalyticsHelper::is_valid_key($key)) {
             $javascript =
             '<script

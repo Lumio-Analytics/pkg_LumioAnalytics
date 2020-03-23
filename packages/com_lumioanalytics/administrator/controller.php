@@ -1,5 +1,4 @@
 <?php
-
 /**
  * @version    $version 1.0.0 Mikel Martin  $
  * @package    Com_Lumioanalytics
